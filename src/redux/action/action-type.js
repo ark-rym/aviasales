@@ -1,0 +1,5 @@
+export const CHECKED = 'CHECKED'
+export const GET_TICKETS = 'GET_TICKETS'
+export const GET_ID = 'GET_ID'
+export const PAGE_SIZE = 'PAGE_SIZE'
+export const FILTER = 'FILTER'

@@ -1,0 +1,42 @@
+.main {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  // margin: 0 103px;
+  background-color: #f3f7fa;
+
+  .tickets {
+    width: 502px;
+
+    @media (max-width: 520px) {
+      width: 90%;
+      min-width: 470px;
+      overflow: auto;
+    }
+  }
+
+  .load-more {
+    width: 100%;
+    height: 50px;
+    background-color: #2196f3;
+    border: none;
+    border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+
+  @media (max-width: 770px) {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.spin {
+  display: flex;
+  justify-items: center;
+}
