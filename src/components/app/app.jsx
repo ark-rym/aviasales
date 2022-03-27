@@ -17,7 +17,9 @@ const App = ({ getId, onPage, tickets, sidePanelCheckbox }) => {
   }, [])
 
   const loading = <Spin size="large" tip="Идет загрузка билетов" className="spin" />
-  const warning = <Alert className="alert" message="Рейсов, подходящих под заданные фильтры, не найдено" type="warning" />
+  const warning = (
+    <Alert className="alert" message="Рейсов, подходящих под заданные фильтры, не найдено" type="warning" />
+  )
   const hasData = !tickets.stop ? null : loading
 
   const n = sidePanelCheckbox.filter((el) => el.checked).length
