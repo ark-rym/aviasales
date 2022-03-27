@@ -3,13 +3,13 @@ import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
 import { Spin, Alert } from 'antd'
 
-import Header from '../header'
-import SidePanel from '../side-panel'
-import TopFilter from '../top-filter'
-import TicketList from '../ticket-list'
+import { Header } from '../Header'
+import { SidePanel } from '../SidePanel'
+import { TopFilter } from '../TopFilter'
+import { TicketList } from '../TicketList'
 import { getId, onPage } from '../../redux/action/action'
 
-import './app.scss'
+import './App.scss'
 
 const App = ({ getId, onPage, tickets, sidePanelCheckbox }) => {
   useEffect(() => {

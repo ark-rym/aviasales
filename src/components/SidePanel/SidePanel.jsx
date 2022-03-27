@@ -3,7 +3,7 @@ import { Checkbox } from 'antd'
 import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
 
-import './side-panel.scss'
+import './SidePanel.scss'
 import { onChecked } from '../../redux/action/action'
 
 const SidePanel = ({ sidePanelCheckbox, onChecked }) => {

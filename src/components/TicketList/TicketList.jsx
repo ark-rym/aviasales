@@ -4,8 +4,8 @@ import { bindActionCreators } from 'redux'
 
 import { getTickets } from '../../redux/action/action'
 import { dataMap, dataSort, filterCheckboxes } from '../../subsidiary/subs'
-import Ticket from '../ticket'
-import './ticket-list.scss'
+import { Ticket } from '../Ticket'
+import './TicketList.scss'
 
 const TicketList = ({ fetchData, state }) => {
   const { id, tickets, itemsOnPage, activeFilter, sidePanelCheckbox } = state

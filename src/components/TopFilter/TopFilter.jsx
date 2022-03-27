@@ -3,7 +3,7 @@ import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
 
 import { onFilter } from '../../redux/action/action'
-import './top-filter.scss'
+import './TopFilter.scss'
 
 const TopFilter = ({ filterButtons, onFilter, activeFilter }) => {
   const buttons = filterButtons.map(({ name, label }) => {

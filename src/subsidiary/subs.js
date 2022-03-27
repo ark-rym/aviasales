@@ -66,6 +66,7 @@ export const dataSort = (data, activeFilter) => {
   if (activeFilter === 'theCheapest') {
     return data.sort((previous, next) => previous.price - next.price)
   }
+
   if (activeFilter === 'theFastest') {
     return data.sort(
       (previous, next) =>

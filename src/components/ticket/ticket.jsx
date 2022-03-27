@@ -10,7 +10,7 @@ import {
   makeTimeFromMins,
 } from '../../subsidiary/subs'
 
-import './ticket.scss'
+import './Ticket.scss'
 
 const Ticket = ({ data }) => {
   const {
