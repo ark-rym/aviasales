@@ -9,7 +9,7 @@ import TopFilter from '../top-filter'
 import TicketList from '../ticket-list'
 import { getId, onPage } from '../../redux/action/action'
 
-import './App.scss'
+import './app.scss'
 
 const App = ({ getId, onPage, tickets, sidePanelCheckbox }) => {
   useEffect(() => {
